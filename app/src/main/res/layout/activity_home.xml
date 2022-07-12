@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5EE0606"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/callonUsuário"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+
+
+    <ImageView
+        android:id="@+id/Linha"
+        android:layout_width="412dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/Icon"
+        android:layout_width="83dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/NomeDoUsuário"
+        android:layout_width="274dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:text="Nome do Usuário"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="111dp" />
+
+    <Button
+        android:id="@+id/buttonComunidade"
+        android:layout_width="305dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#000000"
+        android:text="Comunidade"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Button
+        android:id="@+id/buttonEncontrarJogador"
+        android:layout_width="305dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#000000"
+        android:text="Encrontrar um Jogador"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <TextView
+        android:id="@+id/News"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="337dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="396dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Noticia"
+                android:layout_width="369dp"
+                android:layout_height="68dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/Noticia1"
+                tools:layout_editor_absoluteY="436dp" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Noticia2"
+                android:layout_width="368dp"
+                android:layout_height="71dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/Noticia2"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Noticia3"
+                android:layout_width="372dp"
+                android:layout_height="69dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:srcCompat="@drawable/Noticia3"
+                tools:layout_editor_absoluteX="19dp" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Noticia"
+                android:layout_width="369dp"
+                android:layout_height="68dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/Noticia1"
+                tools:layout_editor_absoluteY="436dp" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Noticia2"
+                android:layout_width="368dp"
+                android:layout_height="71dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/Noticia2"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Noticia3"
+                android:layout_width="372dp"
+                android:layout_height="69dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:srcCompat="@drawable/Noticia3"
+                tools:layout_editor_absoluteX="19dp" />
+
+            </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

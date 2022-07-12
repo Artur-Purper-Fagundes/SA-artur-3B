@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5EE0606"
+    tools:context=".Player">
+
+    <ImageView
+        android:id="@+id/callonUsuário2"
+        android:layout_width="292dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/Jogo"
+        android:layout_width="231dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:text="Nome do Jogo"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="336dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/callonUsuário3"
+        android:layout_width="275dp"
+        android:layout_height="370dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/TextNickname"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:text="Nickname"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/textJogo"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:text="Jogo"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/Rank"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:text="Rank/lvl"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/Descrição"
+        android:layout_width="239dp"
+        android:layout_height="156dp"
+        android:text="Descrição"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/buttonCerto"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/Certo"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/buttonErrado"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="276dp"
+        android:background="@drawable/Errado"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="469dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
